@@ -2,12 +2,14 @@
 .classj{
     background-color:#e29de0;
     text-align:center;
+    box-shadow: 1px 1px 5px
 }
 
 .fard{
     font-family: 'K2D' , sans-serif;
-    font-size:40px;
+    font-size:45px;
     color:white;
+    word-spacing: 20px;
 }
 
 .caro{
@@ -19,6 +21,7 @@
     align-items: center;
     font-style:normal;
     color:white;
+    margin-bottom:5%;
 }
 
 .footer{
@@ -26,7 +29,10 @@
 }
 
 body{ 
-    background-image: url("https://th.bing.com/th/id/OIP.o3TweOa0tydveQvs6EToJQHaHa?pid=ImgDet&rs=1");
+    background-image:url(img/th.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
 }
 
 .vl {
@@ -39,7 +45,6 @@ body{
     right: 69.63%;
     top: 50.06%;
     bottom: 12.58%;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -47,19 +52,16 @@ body{
     display: flex;
     align-items: center;
     text-transform: capitalize;
-    text-decoration:none;
-    color: #edcfee;
+    color: white;
 }
 
 .title{
     color:#fffeff; 
-    font-size:40px; 
+    font-size:60px; 
     text-align:center;
 }
 
-.card-body{
-    text-align:center;
-}
+
 .classp{
     background-color: gray;
     margin-left: 480px;
@@ -100,3 +102,8 @@ h1{
     top: 1;
     bottom: -60%;
   }
+
+.card-body{
+    background-color:rgba(240, 237, 237, 0.803);
+    border-radius:15px;
+}
