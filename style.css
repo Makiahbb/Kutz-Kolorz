@@ -106,3 +106,25 @@ h1{
     background-color:#f0f0f0
 }
 
+.menu{
+    font-size:40px;
+    color:rgb(70,54,54);
+    text-align:center;
+}
+
+.desc{
+    font-size:15px;
+    text-align:left;
+    border-top:solid 1px;
+    border-right:solid 1px;
+    margin-right:49.7%;
+    margin-left:5px;
+}
+
+.price{
+    font-size:15px;
+    text-align:center;
+    border-top:solid 1px;
+    border-left:solid 1px;
+    margin-left:50%;
+}
