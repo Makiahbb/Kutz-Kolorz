@@ -8,9 +8,15 @@
 
 .fard{
     font-family: 'K2D' , sans-serif;
+<<<<<<< HEAD
     font-size:280%;
     color:white;
     word-spacing: auto;
+=======
+    font-size:300%;
+    color:white;
+    word-spacing: 20px;
+>>>>>>> b1e61239179ab27f05ff5efc6b794324476db172
 }
 
 .caro{
@@ -102,6 +108,7 @@ h1{
     bottom: -60%;
   }
 
+<<<<<<< HEAD
 .card-header{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
@@ -136,14 +143,22 @@ h1{
     text-decoration:none;
     color:#705454;
     font-size:1.5vw;
+=======
+.card-body{
+    border-radius:15px;
+    background-color:#f0f0f0
+>>>>>>> b1e61239179ab27f05ff5efc6b794324476db172
 }
 
 .menu{
     font-size:40px;
     color:rgb(70,54,54);
     text-align:center;
+<<<<<<< HEAD
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
+=======
+>>>>>>> b1e61239179ab27f05ff5efc6b794324476db172
 }
 
 .desc{
@@ -161,6 +176,7 @@ h1{
     border-top:solid 1px;
     border-left:solid 1px;
     margin-left:50%;
+<<<<<<< HEAD
     font-weight: 800;
 }
 
@@ -295,4 +311,6 @@ h1{
 
 .hidden{
     display:none;
+=======
+>>>>>>> b1e61239179ab27f05ff5efc6b794324476db172
 }
