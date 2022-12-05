@@ -1,13 +1,16 @@
 
+
 .classj{
     background-color:#e29de0;
     text-align:center;
+    box-shadow: 1px 1px 5px
 }
 
 .fard{
     font-family: 'K2D' , sans-serif;
-    font-size:40px;
+    font-size:280%;
     color:white;
+    word-spacing: auto;
 }
 
 .caro{
@@ -19,6 +22,7 @@
     align-items: center;
     font-style:normal;
     color:white;
+    margin-bottom:5%;
 }
 
 .footer{
@@ -26,7 +30,8 @@
 }
 
 body{ 
-    background-image: url("https://th.bing.com/th/id/OIP.o3TweOa0tydveQvs6EToJQHaHa?pid=ImgDet&rs=1");
+    background-image:url(img/th.png);
+    background-size:100%;
 }
 
 .vl {
@@ -39,7 +44,6 @@ body{
     right: 69.63%;
     top: 50.06%;
     bottom: 12.58%;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -47,19 +51,16 @@ body{
     display: flex;
     align-items: center;
     text-transform: capitalize;
-    text-decoration:none;
-    color: #edcfee;
+    color: white;
 }
 
 .title{
     color:#fffeff; 
-    font-size:40px; 
+    font-size:60px; 
     text-align:center;
 }
 
-.card-body{
-    text-align:center;
-}
+
 .classp{
     background-color: gray;
     margin-left: 480px;
@@ -100,3 +101,198 @@ h1{
     top: 1;
     bottom: -60%;
   }
+
+.card-header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+  }
+.card-body{
+    border-radius:15px;
+    background-color:#ffffff ;
+}
+.card-ptext{
+    border-radius:15px;
+    color:#000000 ;
+    margin-left: 25%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+.card-img{
+    margin-left: 15%;
+}
+
+.psub-head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.About{
+    height: 400px;
+    width: 400px;
+}
+
+.TOC {
+    text-decoration:none;
+    color:#705454;
+    font-size:1.5vw;
+}
+
+.menu{
+    font-size:40px;
+    color:rgb(70,54,54);
+    text-align:center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.desc{
+    font-size:15px;
+    text-align:left;
+    border-top:solid 1px;
+    border-right:solid 1px;
+    margin-right:49.7%;
+    margin-left:5px;
+}
+
+.price{
+    font-size:15px;
+    text-align:center;
+    border-top:solid 1px;
+    border-left:solid 1px;
+    margin-left:50%;
+    font-weight: 800;
+}
+
+.shelf{
+    height: 300px;
+    width: 300px;
+}
+.gall{background-color:#f0f0f0;}
+.gal{
+    background-color:#f0f0f0;
+    margin-left:10vw;
+    margin-right:10vw;
+    height:500px;
+}
+
+.gal .card-body{
+    background-color:white;
+    border-color:#e29de0;
+    border-style: solid;
+}
+.line{
+    border-left: 3px solid rgb(255, 130, 213);
+    height: 26vw;
+    position:absolute;
+    left: 16.5vw;
+    top: 52.6vw;
+    z-index: 9;
+}
+.line2{
+    border-bottom: 3px solid rgb(255, 130, 213);
+    width: 20.2vw;
+    position: absolute;
+    margin-left: 15.9vw;
+    top: 53.5vw;
+    z-index: 9;
+}
+.line3{
+    border-left: 3px solid rgb(255, 130, 213);
+    height: 2vw;
+    position:absolute;
+    left: 35.8vw;
+    top: 58.2vw;
+    z-index: 9;
+}
+.line4{
+    border-left: 3px solid rgb(255, 130, 213);
+    height: 2vw;
+    position:absolute;
+    left: 35.8vw;
+    top: 63.02vw;
+    z-index: 9;
+}
+.line5{
+    border-bottom: 3px solid rgb(255, 130, 213);
+    width: 40.65vw;
+    position: absolute;
+    margin-left: 35.8vw;
+    top: 60.13vw;
+    z-index: 9;
+}
+.line6{
+    border-left: 3px solid rgb(255, 130, 213);
+    height: 2vw;
+    position:absolute;
+    left: 76.3vw;
+    top: 58.2vw;
+    z-index: 9;
+}
+.line7{
+    border-left: 3px solid rgb(255, 130, 213);
+    height: 2vw;
+    position:absolute;
+    left: 76.3vw;
+    top: 63.02vw;
+    z-index: 9;
+}
+.line8{
+    border-bottom: 3px solid rgb(255, 130, 213);
+    width: 40.65vw;
+    position: absolute;
+    margin-left: 35.8vw;
+    top: 63.02vw;
+    z-index: 9;
+}
+.line9{
+    border-left: 3px solid rgb(255, 130, 213);
+    height: 30.25vw;
+    position:absolute;
+    left: 76.7vw;
+    top: 51.4vw;
+    z-index: 9;
+}
+.line10{
+    border-bottom: 3px solid rgb(255, 130, 213);
+    width: 11.75vw;
+    position: absolute;
+    margin-left: 76.2vw;
+    top: 52.2vw;
+    z-index: 9;
+}
+.line11{
+    border-left: 3px solid rgb(255, 130, 213);
+    height: 20vw;
+    position:absolute;
+    left: 51.2vw;
+    top: 70.2vw;
+    z-index: 9;
+}
+.line12{
+    border-bottom: 3px solid rgb(255, 130, 213);
+    width: 21.45vw;
+    position: absolute;
+    margin-left: 50.55vw;
+    top: 71vw;
+    z-index: 9;
+}
+
+#dis{
+    background-color: #e29de0;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index:20;
+    border-color:#9c3299;
+    color:#705454;
+    background-color:#f0f0f0;
+    border-radius:5px;
+  }
+
+.hidden{
+    display:none;
+}
