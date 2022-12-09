@@ -144,6 +144,7 @@ h1{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
     overflow:auto;
+    
 }
 
 .desc{
@@ -177,8 +178,7 @@ h1{
 
 .gal .card-body{
     background-color:white;
-    border-color:#e29de0;
-    border-style: solid;
+    border-left: #e29de0 solid; border-right: solid #e29de0;
 }
 
 #dis{
